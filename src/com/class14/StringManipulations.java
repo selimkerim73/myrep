@@ -39,7 +39,7 @@ public class StringManipulations {
 		
 		// toCharArray() - converts string to array of characters
 		
-				String str="saturday";
+				String str3="saturday";
 				
 				char[] array=str.toCharArray();
 				for(int i=0; i<array.length; i++) {
@@ -65,4 +65,5 @@ public class StringManipulations {
 
 	}
 
+}
 }

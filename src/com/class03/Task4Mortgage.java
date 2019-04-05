@@ -32,14 +32,15 @@ public class Task4Mortgage {
 
 				System.out.println("i will consider buy");
 
-			}
-		} else 
+			}else {
 		
-		{
+		
+		
 			System.out.println("You have to get loan");
 			if (price>200000) {
 				
 			}
 	}
 
+}
 }
