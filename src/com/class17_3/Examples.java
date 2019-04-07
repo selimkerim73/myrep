@@ -1,15 +1,12 @@
 package com.class17_3;
 
-
 public class Examples {
 
-	
 	public static void main(String[] args) {
-	        ScannerMethod scnMthd = new ScannerMethod();
-	        System.out.println(scnMthd.sum(125, 150));
+		ScannerMethod scnMthd = new ScannerMethod();
+		System.out.println(scnMthd.sum(125, 150));
 
-	    
-	    }
+	}
 
 	void example() {
 
@@ -49,5 +46,3 @@ public class Examples {
 	}
 
 }
-
-
