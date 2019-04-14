@@ -20,27 +20,23 @@ public class Task4Mortgage {
 
 		double rate = 4.5;
 		int limit = 200000;
-		
-		
+
 		double req = 3;
 		int price = 100000;
 
-		if (rate>4.5) {
+		if (rate > 4.5) {
 			System.out.println("not buying house");
-			
-			} else {
 
-				System.out.println("i will consider buy");
+		} else {
 
-			}else {
-		
-		
-		
-			System.out.println("You have to get loan");
-			if (price>200000) {
-				
-			}
+			System.out.println("i will consider buy");
+
+		}
+
+		System.out.println("You have to get loan");
+		if (price > 200000) {
+
+		}
 	}
 
-}
 }

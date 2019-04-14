@@ -1,4 +1,4 @@
-package com.class22;
+package com.class22_1;
 
 public class Child1 extends Parent{
 
@@ -10,6 +10,7 @@ public class Child1 extends Parent{
 		System.out.println("Child 1 eye color "+childObject.eyeColor);
 		System.out.println("Child 1 hair color "+childObject.hairColor);
 		System.out.println("Child 1 has "+childObject.nose+" nose");
+		
 		childObject.sing();
 		childObject.playTennis();
 		

@@ -1,6 +1,7 @@
-package com.class22;
+package com.class22_1;
 
 public class Parent {
+	
 	String eyeColor = "Blue";
 	String hairColor = "White";
 	String nose = "Big";

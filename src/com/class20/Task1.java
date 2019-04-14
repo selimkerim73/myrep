@@ -1,8 +1,6 @@
 package com.class20;
 
 public class Task1 {
-	
-	
 
 	public static void main(String[] args) {
 		/*
@@ -10,19 +8,16 @@ public class Task1 {
 		 * email type, your method should return complete email Address;
 		 * johnsnow@gmail.com johnsnow@yahoo.com
 		 */
-		Task1 obj=new Task1();
-		String email=obj.createEmail("John", "Snow", "gmail");
+		Task1 obj = new Task1();
+		String email = obj.createEmail("John", "Snow", "gmail");
 		System.out.println(email.toLowerCase());
-		
-		
 
 	}
+
 	String createEmail (String name, String lastName, String emailType){
 		 
-		 String name+lastName+"@"emailType".com";
+		 String email=name+lastName+"@"+emailType+".com";
 		 return email;
 	 }
-	
-	
 
 }

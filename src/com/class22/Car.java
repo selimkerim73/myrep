@@ -7,10 +7,10 @@ public class Car {
 	    int doors;
 	    boolean engine;
 	    
-//	    Car() {//constructor
-//	        System.out.println(“I am a constructor”);
-//	        System.out.println(“Hello from constructor”);
-//	    }
+	    Car() {//constructor
+	        System.out.println("I am a constructor");
+        System.out.println("Hello from constructor");
+	    }
 	    
 	    public static void main(String[] args) {
 	        
