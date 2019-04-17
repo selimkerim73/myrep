@@ -4,6 +4,10 @@ public class Test {
 	public static void main(String[] args) {
 		System.out.println("---Creating Employee object---");
 		Employee emp = new Employee();
+		System.out.println(Employee.department);
+
+		// emp.work(); not preferred way
+		Employee.work();
 		emp.salary = 90000;
 		emp.getPaid();
 
@@ -66,31 +70,50 @@ public class Test {
 		po.attendScrumMeetings();
 		po.prioritizeBacklog();
 		po.talkToTheClient();
-		
+
+		// Bundan sonrakiler kendi orneklerimiz
+		System.out.println("--------Bundan sonrakiler kendi orneklerimiz----");
+
 		System.out.println("---Creating Front end tester object---");
-		Developer fet = new Developer();
-		fet.salary = 150000;
+		FrontEndTester fet = new FrontEndTester();
+		fet.salary = 80000;
 		fet.getPaid();
 		fet.artifacts = "Sprit backlog, Product Backlog";
 		fet.ceremonies = "Sprit grooming, Sprint Planning, Sprint Demo";
 		fet.workOnArtifacts();
 		fet.attendScrumMeetings();
-		
-		
-		
-		
+		fet.doHtml();
+
 		System.out.println("---Creating back end tester object---");
-		ProductOwner bet = new ProductOwner();
-		bet.salary = 150000;
+		BackEndTester bet = new BackEndTester();
+		bet.salary = 100000;
 		bet.getPaid();
 		bet.artifacts = "Sprit backlog, Product Backlog";
 		bet.ceremonies = "Sprit grooming, Sprint Planning, Sprint Demo";
 		bet.workOnArtifacts();
 		bet.attendScrumMeetings();
-		bet.prioritizeBacklog();
-		bet.talkToTheClient();
-		
-		
+		bet.doSql();
+
+		System.out.println("---Creating manual tester object---");
+		ManualTester mt = new ManualTester();
+		mt.salary = 100000;
+		mt.getPaid();
+		mt.artifacts = "Sprit backlog, Product Backlog";
+		mt.ceremonies = "Sprit grooming, Sprint Planning, Sprint Demo";
+		mt.workOnArtifacts();
+		mt.attendScrumMeetings();
+		mt.testManually();
+
+		System.out.println("---Creating automation tester object---");
+		AutomationTester at = new AutomationTester();
+		at.salary = 100000;
+		at.getPaid();
+		at.artifacts = "Sprit backlog, Product Backlog";
+		at.ceremonies = "Sprit grooming, Sprint Planning, Sprint Demo";
+		at.workOnArtifacts();
+		at.attendScrumMeetings();
+		at.codeInJava();
+
 	}
 
 }
