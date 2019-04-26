@@ -3,8 +3,8 @@ package com.class26;
 public class UserTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
+		UserInfo obj=new UserInfo("John Smith", 123456789, "123 Test str, Test city, Test state");
+		obj.userDetails();
 	}
-
 }

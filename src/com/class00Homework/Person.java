@@ -1,9 +1,11 @@
 package com.class00Homework;
 
-public class Person {
-
-	String name;
-	  String lastName="Smith";
-	  int age; 
-
+class T { 
+int t = 20; 
+} 
+class M	ain { 
+public static void main(String args[]) { 
+T t1 = new T(); 
+System.out.println(t1.t); 
+} 
 }
